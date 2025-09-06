@@ -1,31 +1,23 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Únete a #Mariscala en Instagram</title>
     <meta name="description" content="Comparte tus mejores momentos y únete a la comunidad de Mariscala en Instagram usando el hashtag #Mariscala.">
-    
     <meta property="og:title" content="Únete a #Mariscala en Instagram">
     <meta property="og:description" content="Inspira a otros compartiendo tus fotos y videos.">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=2572&auto=format&fit=crop"> <meta property="og:url" content="https://tudominio.com"> <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:url" content="https://tudominio.com">
+    <meta name="twitter:card" content="summary_large_image">
 
     <script src="https://cdn.tailwindcss.com"></script>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
 
     <style>
-        /* Usamos la fuente Poppins que importamos */
-        body {
-            font-family: 'Poppins', sans-serif;
-        }
-        /* Pequeña animación para la entrada del contenido */
-        .fade-in {
-            animation: fadeIn 1s ease-in-out;
-        }
+        body { font-family: 'Poppins', sans-serif; }
+        .fade-in { animation: fadeIn 1s ease-in-out; }
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
@@ -34,39 +26,52 @@
 </head>
 <body class="bg-gray-900 text-white">
 
-    <div id="background-container" class="relative min-h-screen flex items-center justify-center bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?q=80&w=2574&auto=format&fit=crop');">
-        
-        <div class="absolute inset-0 bg-black opacity-60"></div>
-
-        <main class="relative z-10 text-center p-8 max-w-3xl mx-auto fade-in">
-            
-            <svg class="mx-auto h-16 w-16 mb-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path fill-rule="evenodd" d="M12.315 2c-4.048 0-4.555.016-6.138.09-1.583.073-2.665.342-3.606 1.284C1.63 4.335 1.36 5.417 1.288 6.999c-.073 1.584-.09 2.09-.09 6.138s.016 4.555.09 6.138c.073 1.583.342 2.665 1.284 3.606.94 1.04 2.023 1.211 3.606 1.284 1.583.073 2.09.09 6.138.09s4.555-.016 6.138-.09c1.583-.073 2.665-.342 3.606-1.284 1.04-.94 1.211-2.023 1.284-3.606.073-1.584.09-2.09.09-6.138s-.016-4.555-.09-6.138c-.073-1.583-.342-2.665-1.284-3.606C19.583 1.36 18.5 1.09 16.92 1.018 15.333 1.001 14.828 1 10.78 1zm0 2.163c4.012 0 4.48.016 6.06.088 1.46.067 2.228.326 2.82.784.662.51.99 1.14.99 2.228.072 1.58.088 2.048.088 6.06s-.016 4.48-.088 6.06c-.067 1.46-.326 2.228-.784 2.82a3.896 3.896 0 01-2.228.99c-1.58.072-2.048.088-6.06.088s-4.48-.016-6.06-.088c-1.46-.067-2.228-.326-2.82-.784a3.896 3.896 0 01-.99-2.228c-.072-1.58-.088-2.048-.088-6.06s.016-4.48.088-6.06c.067-1.46.326-2.228.784-2.82.51-.662 1.14-.99 2.228-.99 1.58-.072 2.048-.088 6.06-.088z" clip-rule="evenodd" />
-                <path d="M12 6.845a5.155 5.155 0 100 10.31 5.155 5.155 0 000-10.31zm0 8.152a3 3 0 110-6 3 3 0 010 6z" />
-                <path d="M16.95 6.402a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5z" />
-            </svg>
-
-            <h1 class="text-4xl md:text-6xl lg:text-7xl font-black uppercase tracking-wider mb-4">
-                Únete a la comunidad
-            </h1>
-
-            <p class="text-5xl md:text-8xl lg:text-9xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 mb-8">
-                #Mariscala
-            </p>
-
-            <p class="text-lg md:text-2xl max-w-2xl mx-auto mb-10">
-                Comparte tus fotos, videos y momentos. Inspira a otros y sé parte de nuestra historia en Instagram.
-            </p>
-
-            <a href="https://www.instagram.com/explore/tags/mariscala/" 
-               target="_blank" 
-               rel="noopener noreferrer" 
-               class="inline-block bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold py-4 px-10 rounded-full text-xl uppercase tracking-widest transform hover:scale-105 transition-transform duration-300 shadow-lg">
+    <header class="min-h-screen flex flex-col items-center justify-center bg-gray-900 text-center p-8">
+        <main class="fade-in">
+            <svg class="mx-auto h-16 w-16 mb-6 text-gray-400" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c-4.048 0-4.555.016-6.138.09-1.583.073-2.665.342-3.606 1.284C1.63 4.335 1.36 5.417 1.288 6.999c-.073 1.584-.09 2.09-.09 6.138s.016 4.555.09 6.138c.073 1.583.342 2.665 1.284 3.606.94 1.04 2.023 1.211 3.606 1.284 1.583.073 2.09.09 6.138.09s4.555-.016 6.138-.09c1.583-.073 2.665-.342 3.606-1.284 1.04-.94 1.211-2.023 1.284-3.606.073-1.584.09-2.09.09-6.138s-.016-4.555-.09-6.138c-.073-1.583-.342-2.665-1.284-3.606C19.583 1.36 18.5 1.09 16.92 1.018 15.333 1.001 14.828 1 10.78 1zm0 2.163c4.012 0 4.48.016 6.06.088 1.46.067 2.228.326 2.82.784.662.51.99 1.14.99 2.228.072 1.58.088 2.048.088 6.06s-.016 4.48-.088 6.06c-.067 1.46-.326 2.228-.784 2.82a3.896 3.896 0 01-2.228.99c-1.58.072-2.048.088-6.06.088s-4.48-.016-6.06-.088c-1.46-.067-2.228-.326-2.82-.784a3.896 3.896 0 01-.99-2.228c-.072-1.58-.088-2.048-.088-6.06s.016-4.48.088-6.06c.067 1.46.326 2.228.784-2.82.51-.662 1.14-.99 2.228-.99 1.58-.072 2.048-.088 6.06-.088z" clip-rule="evenodd" /><path d="M12 6.845a5.155 5.155 0 100 10.31 5.155 5.155 0 000-10.31zm0 8.152a3 3 0 110-6 3 3 0 010 6z" /><path d="M16.95 6.402a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5z" /></svg>
+            <h1 class="text-4xl md:text-6xl font-black uppercase tracking-wider mb-4">Únete a la comunidad</h1>
+            <p class="text-5xl md:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 mb-8">#Mariscala</p>
+            <p class="text-lg md:text-xl max-w-2xl mx-auto mb-10 text-gray-300">Comparte tus fotos, videos y momentos. Inspira a otros y sé parte de nuestra historia en Instagram.</p>
+            <a href="https://www.instagram.com/explore/tags/mariscala/" target="_blank" rel="noopener noreferrer" class="inline-block bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold py-4 px-10 rounded-full text-xl uppercase tracking-widest transform hover:scale-105 transition-transform duration-300 shadow-lg">
                 Ver el Hashtag
             </a>
         </main>
+        
+        <a href="#mas-info" class="absolute bottom-10 animate-bounce text-gray-500">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+        </a>
+    </header>
+    
+    <section id="mas-info" class="py-20 bg-gray-800">
+        <div class="max-w-4xl mx-auto px-8 text-center">
+            
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">¿Qué puedes compartir?</h2>
+            <p class="text-lg text-gray-300 max-w-3xl mx-auto mb-12">
+                ¡Tu perspectiva es única! Muestra lo que hace a Mariscala especial para ti. Aquí tienes algunas ideas:
+            </p>
 
-    </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-700 p-8 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-2">Paisajes y Lugares</h3>
+                    <p class="text-gray-400">Desde el amanecer en el campo hasta las calles del pueblo. Captura la belleza de Mariscala.</p>
+                </div>
+                <div class="bg-gray-700 p-8 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-2">Cultura y Gente</h3>
+                    <p class="text-gray-400">Retratos, eventos, tradiciones. Comparte las historias de quienes dan vida al lugar.</p>
+                </div>
+                <div class="bg-gray-700 p-8 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-2">Gastronomía</h3>
+                    <p class="text-gray-400">¿Probaste un plato increíble? Muestra los sabores locales y antoja a los demás.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 py-8 text-center">
+        <p class="text-gray-500">© 2025 #Mariscala</p>
+        </footer>
 
 </body>
 </html>
